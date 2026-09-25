@@ -1,5 +1,7 @@
 # CLAUDE.md — moto-ml
 
+@.claude/PLATFORM-RULES.md
+
 ## What this repo is
 
 Offline model **training** (Python): context classification (first model: road type/surface/riding event), the combined anomaly model (early fusion: CAN + vibration + acoustic + thermal + context), rider identity/style/fatigue (Phase 2). Outputs are **exported** in the format appropriate for the target node: TFLite Micro or ESP-DL (for MCUs), ONNX/TFLite (for the Raspi).
